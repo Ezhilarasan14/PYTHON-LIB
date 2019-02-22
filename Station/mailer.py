@@ -15,7 +15,7 @@ s.login("email_id", password)
 message = "Message_you_need_to_send"
   
 # sending the mail 
-s.sendmail("nec0914014@gmail.com", "ezhil@tocode.tech", message) 
+s.sendmail("send-id", "recevier-id", message) 
   
 # terminating the session 
 s.quit() 
